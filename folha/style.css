@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: gray;
+}
+
+.container-flex > div {
+
+    background: black;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.Contaiter-flex-wrap{
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: stretch;/*comentario*/
+    overflow: scroll;
+    background: gray;
+    
+}
+.Contaiter-flex-wrap > div{
+    
+    background: rgb(3, 19, 241);
+    margin: 10px 5px 10px 5px;
+    width: 80px;
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(252, 252, 252);
+    text-align: center;
+}
+
